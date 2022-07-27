@@ -1,0 +1,1 @@
+npm install && npm install discord.js discord-player @discordjs/opus && npm i prism-media && npm i ffmpeg-static && npm install ytdl-core@latest && npm i ffmpeg-binaries && npm i ffmpeg-binaries
