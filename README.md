@@ -25,10 +25,10 @@
 
 ```bash
 # 克隆版本库
-git clone https://github.com/StarGolx/DCMusicBot.git
+git clone https://github.com/StarGolx/DCMusicBot_Dev.git
 
 # 进入该目录
-cd DCMusicBot/
+cd DCMusicBot_Dev/
 
 # 安装依赖项
 npm install
