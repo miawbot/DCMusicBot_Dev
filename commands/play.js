@@ -7,7 +7,7 @@ module.exports = {
   description: '在你的频道中播放一首歌',
   options: [
     {
-      name: '歌名或链接',
+      name: 'miaw',
       type: 3, // 'STRING' Type
       // description: 'The song you want to play',
       description: '你想要播放的歌曲',
@@ -37,7 +37,7 @@ module.exports = {
 
       await interaction.deferReply();
 
-      const 歌名或链接 = interaction.options.get('歌名或链接').value;
+      const 歌名或链接 = interaction.options.get('miaw').value;
       const searchResult = await player
         .search(歌名或链接, {
           requestedBy: interaction.user,
